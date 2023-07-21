@@ -4,58 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
- 
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-
-  <section class="container">
-    <!-- Resultado -->
-    <div class="score"> <!-- Contenedor azul -->
-      <p class="score-title">Your Result</p>
-      <div class="score-result"> <!-- Circulo con la puntuacion -->
-        <p class="score-number">76</p>
-        <p class="of100">of 100</p>
+  <main class="main">
+    <div class="container">
+      <div class="score">
+        <p class="score__title">Your Result</p>
+        <div class="circle">
+          <p class="score__result">76</p>
+          <p class="score__max">of 100</p>
+        </div>
+        <div class="score__text">
+          <p class="score__text--title">Great</p>
+          <p class="score__text--message">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
       </div>
-      <p>Great</p>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
+      <div class="summary">
+        <p class="summary__title">Summary</p>
+        <div class="category">
+          <img src="assets/icon-reaction.svg" alt="Reaction Icon" class="category__icon">
+          <p class="category__title">Reaction</p>
+          <p class="caregory__score">80 <span>/ 100</span></p>
+        </div>
+        <div class="category">
+          <img src="assets/icon-memory.svg" alt="Memory Icon" class="category__icon">
+          <p class="category__title">Memory</p>
+          <p class="caregory__score">92 <span>/ 100</span></p>
+        </div>
+        <div class="category">
+          <img src="assets/icon-verbal.svg" alt="Verbal Icon" class="category__icon">
+          <p class="category__title">Verbal</p>
+          <p class="caregory__score">61 <span>/ 100</span></p>
+        </div>
+        <div class="category">
+          <img src="assets/icon-visual.svg" alt="Visual Icon" class="category__icon">
+          <p class="category__title">Visual</p>
+          <p class="caregory__score">72 <span>/ 100</span></p>
+        </div>
+        <a href="#">Continue</a>
+      </div>
     </div>
-
-    <!-- Summary -->
-    <div class="summary">
-      <p class="summary-title">Summary</p>
-      <div class="summary-element"> <!-- Row -->
-        <img src="assets/images/icon-reaction.svg" alt="reaction" class="summary-element-icon">
-        <p class="summary-element-title">Reaction</p>
-        <p class="summary-element-result">80 / 100</p>
-      </div>
-      <div class="row"> <!-- Row -->
-        <img src="assets/images/icon-memory.svg" alt="memory">
-        <p>Memory</p>
-        <p>92 / 100</p>
-      </div>
-      <div class="row"> <!-- Row -->
-        <img src="assets/images/icon-verbal.svg" alt="verbal">
-        <p>Verbal</p>
-        <p>61 / 100</p>
-      </div>
-      <div class="row"> <!-- Row -->
-        <img src="assets/images/icon-visual.svg" alt="visual">
-        <p>Visual</p>
-        <p>72 / 100</p>
-      </div>
-      <a href="#">Continue</a>
-    </div>
-  </section>
-
-  <div class="attribution">
+  </main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/avilesalejandro" target="_blank">Alejandro Aviles</a>.
+  </footer>
 </body>
 </html>
