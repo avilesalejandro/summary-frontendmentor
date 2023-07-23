@@ -32,9 +32,11 @@ Live Site URL: [Netlify Site](https://frontendmentor-summary.netlify.app/)
 
 ### What I learned
 
-I learned to use BEM Methodology 
+I learned to use BEM Methodology & responsive design
 
 ### Continued Development
+
+I will be coming back to this repository every time I learn something new that I can use here so it will be the best and most optimal solution.
 
 ## Author 
 
