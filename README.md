@@ -5,6 +5,9 @@ This is a solution to the Results summary component challenge on Frontend Mentor
 ## Table of contents
 
 ## Overview
+Users should be able to: 
+- View the optimal layout for the interface depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
 
 ### The challenge
 
@@ -14,18 +17,25 @@ This is a solution to the Results summary component challenge on Frontend Mentor
 
 ### Links 
 
-Solution URL: [Github repository]([https://github.com/avilesalejandro/](https://github.com/avilesalejandro/summary-frontendmentor))
+Solution URL: [Github repository](https://github.com/avilesalejandro/summary-frontendmentor)
 
-Live Site URL: [Netlify Site]([https://](https://frontendmentor-summary.netlify.app/))
+Live Site URL: [Netlify Site](https://frontendmentor-summary.netlify.app/)
 
 ## My process
 
 ### Built with
 
-* Semantic HTML5 markup
+* HTML5
+* CSS3
 * Flexbox
 * BEM
 
 ### What I learned
 
 I learned to use BEM Methodology 
+
+### Continued Development
+
+## Author 
+
+- Website - [Add your name here](https://www.your-site.com)
