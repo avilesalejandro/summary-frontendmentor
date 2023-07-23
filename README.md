@@ -14,8 +14,9 @@ This is a solution to the Results summary component challenge on Frontend Mentor
 
 ### Links 
 
-* Solution URL: [Github repository]([https://github.com/avilesalejandro/](https://github.com/avilesalejandro/summary-frontendmentor))
-* Live Site URL: [Netlify Site]([https://](https://frontendmentor-summary.netlify.app/))
+Solution URL: [Github repository]([https://github.com/avilesalejandro/](https://github.com/avilesalejandro/summary-frontendmentor))
+
+Live Site URL: [Netlify Site]([https://](https://frontendmentor-summary.netlify.app/))
 
 ## My process
 
